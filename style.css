@@ -641,3 +641,48 @@ html[dir="rtl"] .portrait img {
         transform: none;
     }
 }
+nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+}
+.controls button {
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.controls button:hover {
+    background-color: var(--accent);
+    color: var(--bg);
+    border-color: var(--accent);
+}
+.hero-actions a {
+    transition: transform 0.2s, background-color 0.2s, color 0.2s;
+}
+
+.hero-actions a:hover {
+    transform: translateY(-3px);
+}
+
+.hero-actions .button:hover {
+    background-color: var(--text);
+    color: var(--bg);
+}
+
+.hero-actions a:not(.button):hover {
+    color: var(--accent);
+}
+.contact-detail a[href^="tel:"]:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+}
+.contact-detail .email {
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.contact-detail .email:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+}
