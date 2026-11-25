@@ -1,16 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta
-        name="description"
-        content="Ayham Bdair — MIS graduate learning web development and cybersecurity at 42 Amman."
-    >
-    <title>Ayham Bdair | Portfolio</title>
+    <meta name="description" content="Ayham Bdair — Cybersecurity Associate focused on web application security, vulnerability assessment, and secure coding practices.">
+    <title>Ayham Bdair | Cybersecurity Associate</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
     <header>
         <a class="brand" href="#home" data-t="namePlain">Ayham Bdair</a>
@@ -19,20 +18,19 @@
             <a href="#about" data-t="aboutTitle">About me</a>
             <a href="#skills" data-t="skillsTitle">Skills</a>
             <a href="#projects" data-t="projectsTitle">Projects</a>
+            <a href="#certifications" data-t="certTitle">Certifications</a>
             <a href="#contact" data-t="contactTitle">Contact</a>
         </nav>
 
         <div class="controls">
-            <button id="language" type="button" aria-label="Switch language">
-                AR
-            </button>
-            <button id="theme" type="button" aria-label="Switch color theme">
-                ◐
-            </button>
+            <button id="language" type="button" aria-label="Switch language">AR</button>
+            <button id="theme" type="button" aria-label="Switch color theme">◐</button>
         </div>
     </header>
 
     <main>
+
+        <!-- HOME -->
         <section id="home" class="hero">
             <div class="portrait">
                 <img src="assets/profile.jpg" alt="Portrait of Ayham Bdair">
@@ -40,24 +38,28 @@
 
             <div class="hero-copy">
                 <div class="eyebrow" data-t="intro">
-                   SECURE BY DESIGN. BUILT TO PERFORM.
-                 </div>
+                    SECURE BY DESIGN. BUILT TO PERFORM.
+                </div>
 
-                <h1 data-t="name">Ayham Bdair<span>.</span></h1>
+                <h1>
+                    <span class="hero-name" data-t="namePlain">Ayham Bdair</span><span>.</span>
+                </h1>
 
-                <h2 data-t="role">
-                  Cybersecurity &amp; Web Development Specialist
-                </h2>
+                <h2 data-t="role">Cybersecurity Associate</h2>
 
                 <p data-t="heroText">
-    I build secure, high-performance web applications and protect digital systems against modern threats.
-</p>
+                    Focused on web application security, vulnerability assessment,
+                    and secure coding practices, with a background in web development.
+                </p>
 
                 <div class="hero-actions">
                     <a class="button" href="#projects" data-t="viewProjects">
                         Explore my projects
                     </a>
-                    <a href="#contact" data-t="getInTouch">Get in touch</a>
+
+                    <a href="#contact" data-t="getInTouch">
+                        Get in touch
+                    </a>
                 </div>
 
                 <div class="hero-note">
@@ -68,188 +70,305 @@
             </div>
         </section>
 
+        <!-- ABOUT -->
         <section id="about" class="about">
             <div class="section-head">
                 <h2 data-t="aboutTitle">About me</h2>
             </div>
 
             <div>
-               <p class="about-intro" data-t="aboutText">
-
-    I’m Ayham Bdair, a Cybersecurity and Web Development Specialist based in Jordan.
-               </p>
+                <p class="about-intro" data-t="aboutText">
+                    I'm Ayham Bdair, a Cybersecurity Associate based in Amman,
+                    Jordan, with hands-on experience in web application security
+                    and vulnerability assessment.
+                </p>
 
                 <p class="about-details" data-t="aboutDetails">
-       I specialize in building secure, high-performance web applications and in protecting digital systems against modern threats. 
-On the development side, I deliver responsive, accessible interfaces using
- HTML, CSS, and JavaScript, backed by clean architecture and maintainable code. 
-On the security side,
- I apply a security-first mindset across the full development lifecycle,
- from threat awareness and secure coding practices to vulnerability assessment.
- I work fluently in Linux environments and use Git and GitHub for version control,
- collaboration, and deployment. 
-My goal is simple: to build reliable, well-structured digital products that are as secure as they are polished.
+                    I successfully completed 90 hours of cybersecurity training
+                    at 42 Amman, gaining practical experience in vulnerability
+                    identification, controlled exploitation, security testing,
+                    and remediation.
 
-</p>
+                    My technical background includes web development, Linux,
+                    networking, OSINT, and cybersecurity tools.
+
+                    I also completed 20 levels of NetPractice and collaborated
+                    with a five-member team to develop CyberTeam, an interactive
+                    web security sandbox.
+
+                    I value continuous learning, teamwork, research, and peer
+                    learning, and I am motivated to contribute to securing
+                    applications and digital systems.
+                </p>
             </div>
         </section>
 
+        <!-- SKILLS -->
         <section id="skills">
             <div class="section-head">
                 <h2 data-t="skillsTitle">Skills</h2>
+
                 <span class="section-note" data-t="skillsNote">
-                    My growing toolkit
+                    My technical toolkit
                 </span>
             </div>
 
             <div class="skill-grid">
+
                 <article>
                     <span class="icon">&lt;/&gt;</span>
-                    <h3 data-t="web">Web Development</h3>
-                    <p>HTML5 · CSS3 · JavaScript</p>
-                    <small data-t="webDetail">
-                        Semantic structure, styling &amp; interactivity
+                    <h3 data-t="webSecurity">Web Application Security</h3>
+                    <p>XSS · DOM XSS · CSRF · SQLi · SSTI · XXE · SSRF</p>
+                    <small>
+                        LFI/RFI · Path Traversal · Insecure Deserialization ·
+                        Padding Oracle · Prototype Pollution · ReDoS ·
+                        Business Logic Flaws
                     </small>
-                </article>
-
-                <article>
-                    <span class="icon">{ }</span>
-                    <h3>CSS</h3>
-                    <p>Flexbox · Positioning</p>
-                    <small>Animations &amp; Transitions</small>
-                </article>
-
-                <article>
-                    <span class="icon">&gt;_</span>
-                    <h3 data-t="tools">Tools</h3>
-                    <p>Git · GitHub · Linux Terminal</p>
-                    <small>Command Line</small>
                 </article>
 
                 <article>
                     <span class="icon">⌘</span>
-                    <h3 data-t="security">Cybersecurity</h3>
-                    <p data-t="fundamentals">Cybersecurity Fundamentals</p>
-                    <small data-t="securityDetail">
-                        Building a foundation in system security
+                    <h3 data-t="securityTesting">Security Testing</h3>
+                    <p data-t="testingDetail">
+                        Vulnerability Assessment · Penetration Testing Fundamentals
+                    </p>
+                    <small data-t="testingMore">
+                        OWASP · Proof of Concept · Secure Coding · Remediation
                     </small>
                 </article>
+
+                <article>
+                    <span class="icon">◎</span>
+                    <h3 data-t="networking">Networking</h3>
+                    <p>TCP/IP · IPv4 · Subnetting · Routing</p>
+                    <small data-t="networkDetail">
+                        Default Gateways · Routing Tables · Network Troubleshooting
+                    </small>
+                </article>
+
+                <article>
+                    <span class="icon">&gt;_</span>
+                    <h3 data-t="securityTools">Cybersecurity Tools</h3>
+                    <p>Kali Linux · Burp Suite · CyberChef</p>
+                    <small>John the Ripper · Hashcat · ExifTool</small>
+                </article>
+
+                <article>
+                    <span class="icon">#</span>
+                    <h3 data-t="forensics">OSINT &amp; Digital Forensics</h3>
+                    <p data-t="forensicsDetail">
+                        OSINT · Metadata Analysis · Hash Cracking
+                    </p>
+                    <small>MD5 · SHA-1 · Base64 · Hex</small>
+                </article>
+
+                <article>
+                    <span class="icon">{ }</span>
+                    <h3 data-t="web">Web Development</h3>
+                    <p>HTML5 · CSS3 · JavaScript · PHP · MySQL</p>
+                    <small data-t="webDetail">
+                        Responsive Design · DOM · Secure Coding
+                    </small>
+                </article>
+
+                <article>
+                    <span class="icon">$_</span>
+                    <h3 data-t="devTools">Development Tools</h3>
+                    <p>Linux · Git · GitHub · Docker</p>
+                    <small>Docker Compose · SSH · VS Code</small>
+                </article>
+
             </div>
-
-
         </section>
 
+        <!-- PROJECTS -->
         <section id="projects">
             <div class="section-head">
                 <h2 data-t="projectsTitle">Projects</h2>
+
                 <span class="section-note" data-t="projectNote">
-                    My learning journey
+                    Practical experience
                 </span>
             </div>
 
             <div id="project-list"></div>
 
             <p class="muted" data-t="projectDisclaimer">
-                Explore the code and projects on GitHub.
+                Explore my projects and source code on GitHub.
             </p>
         </section>
 
+      
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+
+    <div class="section-head">
+        <h2 data-t="certTitle">Certifications</h2>
+
+        <span class="section-note" data-t="certNote">
+            Training &amp; achievements
+        </span>
+    </div>
+
+    <div class="certificate-grid">
+
+        <a class="certificate-card"
+           href="assets/certificate-42.jpg"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <div class="certificate-info">
+
+
+                <h3 data-t="cert42">
+                    Advanced Technical Skills – Cybersecurity
+                </h3>
+
+                <p>42 Amman</p>
+
+                <p data-t="cert42Date">
+                    November 2026 · 90 Training Hours
+                </p>
+
+                <div class="certificate-link">
+                    <span data-t="viewCert">View Certificate</span>
+                    <span>↗</span>
+                </div>
+
+            </div>
+
+        </a>
+
+        <a class="certificate-card"
+           href="assets/certificate-ctf.jpg"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <div class="certificate-info">
+
+
+                <h3 data-t="certCTF">
+                    CrypteraLab: Handshake – Certificate of Participation
+                </h3>
+
+                <p>CrypteraLab</p>
+
+                <p data-t="certCTFDate">
+                    November 2026 · CTF Competition
+                </p>
+
+                <div class="certificate-link">
+                    <span data-t="viewCert">View Certificate</span>
+                    <span>↗</span>
+                </div>
+
+            </div>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+        <!-- SOFT SKILLS -->
         <section id="hobbies">
             <div class="section-head">
                 <h2 data-t="hobbiesTitle">Soft Skills</h2>
             </div>
 
             <div class="interests">
-                <span data-t="hobby1">Learning New Technologies</span>
-                <span data-t="hobby2">Coding &amp; Building Projects</span>
-                <span data-t="hobby3">Exploring Cybersecurity</span>
-                <span data-t="hobby4">Solving Technical Challenges</span>
-                <span data-t="hobby5">
-                    Continuous Learning &amp; Self-Development
-                </span>
+                <span data-t="soft1">Teamwork</span>
+                <span data-t="soft2">Communication</span>
+                <span data-t="soft3">Peer Learning</span>
+                <span data-t="soft4">Adaptability</span>
+                <span data-t="soft5">Analytical Thinking</span>
+                <span data-t="soft6">Research</span>
+                <span data-t="soft7">Fast Learning</span>
+                <span data-t="soft8">Continuous Learning</span>
             </div>
         </section>
 
+        <!-- CONTACT -->
         <section id="contact" class="contact">
+
             <div>
-                <div class="eyebrow" data-t="contactEyebrow">LET’S CONNECT</div>
+                <div class="eyebrow" data-t="contactEyebrow">
+                    LET’S CONNECT
+                </div>
 
                 <h2 data-t="contactLead">
-                    Good conversations.<br>
-                    New possibilities.
+                    Good conversations. New possibilities.
                 </h2>
 
                 <div class="contact-detail">
                     <span data-t="emailLabel">Email</span>
-                    <a
-                        class="email"
-                        href="mailto:ayhambdair63@gmail.com"
-                        dir="ltr"
-                    >
+
+                    <a class="email"
+                       href="mailto:ayhambdair63@gmail.com"
+                       dir="ltr">
                         ayhambdair63@gmail.com
                     </a>
                 </div>
 
                 <div class="contact-detail">
                     <span data-t="phoneLabel">Phone</span>
+
                     <a href="tel:+962775151600" dir="ltr">
                         +962 77 515 1600
                     </a>
                 </div>
 
                 <div class="socials">
-                    <a
-                        href="https://github.com/ayhambdair"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+
+                    <a href="https://github.com/ayhambdair"
+                       target="_blank"
+                       rel="noopener noreferrer">
                         GitHub
                     </a>
-                    <a
-                        href="https://www.linkedin.com/in/ayham-bdair-634794208/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+
+                    <a href="https://www.linkedin.com/in/ayham-bdair-634794208/"
+                       target="_blank"
+                       rel="noopener noreferrer">
                         LinkedIn
                     </a>
+
                 </div>
             </div>
 
             <form id="contact-form">
+
                 <label for="sender" data-t="yourName">Your name</label>
-                <input
-                    id="sender"
-                    name="name"
-                    required
-                    maxlength="100"
-                    autocomplete="name"
-                >
+
+                <input id="sender"
+                       name="name"
+                       required
+                       maxlength="100"
+                       autocomplete="name">
 
                 <label for="email" data-t="yourEmail">Your email</label>
-                <input
-                    id="email"
-                    name="email"
-                    type="email"
-                    required
-                    autocomplete="email"
-                >
+
+                <input id="email"
+                       name="email"
+                       type="email"
+                       required
+                       autocomplete="email">
 
                 <label for="message" data-t="yourMessage">Your message</label>
-                <textarea
-                    id="message"
-                    name="message"
-                    required
-                    rows="3"
-                    maxlength="3000"
-                ></textarea>
+
+                <textarea id="message"
+                          name="message"
+                          required
+                          rows="3"
+                          maxlength="3000"></textarea>
 
                 <button class="button" type="submit" data-t="send">
-                    Email  
+                    Send Email
                 </button>
 
-               
             </form>
         </section>
+
     </main>
 
     <footer>
@@ -258,9 +377,12 @@ My goal is simple: to build reliable, well-structured digital products that are 
             <span data-t="namePlain">Ayham Bdair</span>
         </span>
 
-        <span data-t="footer">Always learning. Always building.</span>
+        <span data-t="footer">
+            Always learning. Always building.
+        </span>
 
         <a href="#home" data-t="top">Back to top</a>
     </footer>
+
 </body>
 </html>
